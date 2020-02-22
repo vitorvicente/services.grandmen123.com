@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Grandmen123</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Bootstrap CSS  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- Icons CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Main CSS -->
+  <link href="../../../code/css/services-main.css" rel="stylesheet">
+  
+  <link rel="icon" type="image/png"  href="../../../files/favicon.png">
+  
+</head>
+
+<body>
+  <header id="header" class="fixed-top">
+    <div class="container">
+
+      <div class="logo float-left">
+        <h1 class="text-light"><a href="#header"><span>Grandmen123</span></a></h1>
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li><a href="../../../">Home</a></li>
+          <li><a href="../../../about">About Me</a></li>
+          <li><a href="../../../services">Services</a></li>
+          <li><a href="../../../contact">Contact Me</a></li>
+        </ul>
+      </nav>
+      
+    </div>
+  </header>
+
+
+  <section id="intro" class="clearfix">
+    <div class="container">
+
+
+    </div>
+  </section>
+
+  <main id="main">
+    <section id="about">
+      <div class="container">
+	  
+		<header class="section-header">
+          <h3>Order Form</h3>
+		  <p>
+		    Please fill out the following form to place an order for any package available, try providing as many details as possible as to expedite the request handling.
+		  </p>
+        </header>
+		
+        <form action="../../../code/php/mail-order-3.php" method="POST" name="contact-form">
+	  
+          <div class="row">
+            <div class="col-md-6">
+              <div class="md-form mb-0">
+			    <label for="name" class="">Name</label>
+			    <fieldset>
+                  <input type="text" placeholder="Your Name" name="name" class="form-control" required autofocus>
+                </fieldset>
+			  </div>
+            </div>
+            <div class="col-md-6">
+              <div class="md-form mb-0">
+			    <label for="email" class="">Email</label>
+			    <fieldset>
+                  <input type="email" placeholder="Your Email" name="email" class="form-control" required>
+                </fieldset>
+			  </div>
+            </div>
+          </div>
+		  
+		  <div class="row">
+		    <div class="cold-md-12">
+			  <br>
+			</div>
+		  </div>
+		  
+          <div class="row">
+            <div class="col-md-12">
+              <div class="md-form mb-0">
+			    <label for="email" class="">Package</label>
+			    <fieldset>
+                  <input type="email" placeholder="Your Order" name="package" class="form-control" required>
+                </fieldset>
+			  </div>
+            </div>
+          </div>
+		
+          <div class="row">
+            <div class="col-md-12">
+			  <br>
+              <div class="md-form">
+			    <label for="message">Order Details</label>
+                  <textarea type="text" placeholder="Please Leave As Many Details As Possible..." name="message" rows="2" class="form-control md-textarea" required></textarea>
+			  </div>
+            </div>
+          </div>
+		
+		  <br>
+		
+		  <div class="row">
+		    <div class="text-center col-md-6">
+		      <br>
+		      <input type="submit" class="btn btn-info btn-home" value="Send">
+		      <br> 
+		    </div>
+		    <div class="text-center col-md-6">
+		      <br>
+		      <input type="reset" class="btn btn-info btn-home" value="Clear Form">
+		      <br>
+		    </div>
+		  </div>
+          <div class="status"></div>
+        </form>
+	  
+      </div>
+    </section>
+  </main>
+  
+  <br>
+  <br>
+  <br>
+
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+		  <div class="col-md-3">
+		    <br>
+	      </div>
+		  <div class="col-md-6 text-center">
+		    <a href="yt2.vtr.pt" class="social-icons"><i class="fa fa-youtube-play fa-7x"></i></a>
+		    <a href="fb.vtr.pt" class="social-icons"><i class="fa fa-facebook-square fa-7x"></i></a>
+		    <a href="twitch.vtr.pt" class="social-icons"><i class="fa fa-twitch fa-7x"></i></a>
+		    <a href="twitter.vtr.pt" class="social-icons"><i class="fa fa-twitter-square fa-7x"></i></a>
+		    <a href="yt.vtr.pt" class="social-icons"><i class="fa fa-youtube-play fa-7x"></i></a>
+	      </div>
+		  <div class="col-md-3">
+		    <br>
+	      </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright Grandmen123
+      </div>
+    </div>
+  </footer>
+  
+  <!-- JavaScript Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
