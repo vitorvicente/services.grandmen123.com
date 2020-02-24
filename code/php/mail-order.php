@@ -12,5 +12,5 @@ $mailheader = "From: $email";
 
 
 mail($recipient, $subject, $formcontent, $mailheader);
-header("Location: ../../services/services/minecraft/order/")
+header("Location: ../../services/minecraft/order/")
 ?>
