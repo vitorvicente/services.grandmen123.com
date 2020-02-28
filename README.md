@@ -5,14 +5,14 @@ This website serves as a webstore for both my Minecraft related services as well
 It's a simple HTML & CSS website using Bootstrap, and was developed as a part of an 100 day coding challenge for web development. It's made up of several pages/sections which are listed in the Site-Map bellow.
 
 #####Site-Map
-- Home Page
-- About Page
-..* ToS Page
-..* VIP Status Page
-..* Vouches Page
+* Home Page
+* About Page
+* ToS Page
+  * VIP Status Page
+  * Vouches Page
 - Services Page
-..* Minecraft Services
-....* Order Page
+  * Minecraft Services
+    * Order Page
 ... ... - Order Non-Listed Page
 ... ... - Other Services
 ... ... ... - DonationCraft
