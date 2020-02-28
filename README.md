@@ -7,12 +7,12 @@ It's a simple HTML & CSS website using Bootstrap, and was developed as a part of
 #####Site-Map
 - Home Page
 - About Page
-...* ToS Page
-...* VIP Status Page
-...* Vouches Page
+..* ToS Page
+..* VIP Status Page
+..* Vouches Page
 - Services Page
-...- Minecraft Services
-......* Order Page
+..* Minecraft Services
+....* Order Page
 ... ... - Order Non-Listed Page
 ... ... - Other Services
 ... ... ... - DonationCraft
