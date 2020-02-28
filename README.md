@@ -4,46 +4,46 @@ This website serves as a webstore for both my Minecraft related services as well
 
 It's a simple HTML & CSS website using Bootstrap, and was developed as a part of an 100 day coding challenge for web development. It's made up of several pages/sections which are listed in the Site-Map bellow.
 
-#####Site-Map
+##### Site-Map
 * Home Page
 * About Page
-* ToS Page
+  * ToS Page
   * VIP Status Page
   * Vouches Page
-- Services Page
+* Services Page
   * Minecraft Services
     * Order Page
-... ... - Order Non-Listed Page
-... ... - Other Services
-... ... ... - DonationCraft
-... ... ... - Long Term Management
-... ... ... - Network Organization
-... ... ... - Panel Installation
-... ... ... - Server Migration
-... ... ... - Server Reset
-... ... ... - Tebex
-... ... ... - Xenforo
-... ... - Plugin Configurations
-... ... - Server Setups
-... ... ... - Bungee
-... ... ... - Creative
-... ... ... - Factions
-... ... ... - KitPvP
-... ... ... - Lobby
-... ... ... - Prison
-... ... ... - Skyblock
-... ... ... - Survival
-... - Non-Minecraft Services
-... ... - App Development
-... ... - Consultation
-... ... - Discord Development
-... ... - Order
-... ... - Order Non-Listed
-... ... - Software Development
-... ... - Web Development
-- Contact Page
+    * Order Non-Listed Page
+    * Other Services
+      * DonationCraft
+      * Long Term Management
+      * Network Organization
+      * Panel Installation
+      * Server Migration
+      * Server Reset
+      * Tebex
+      * Xenforo
+    * Plugin Configurations
+    * Server Setups
+      * Bungee
+      * Creative
+      * Factions
+      * KitPvP
+      * Lobby
+      * Prison
+      * Skyblock
+      * Survival
+  * Non-Minecraft Services
+    * App Development
+    * Consultation
+    * Discord Development
+    * Order
+    * Order Non-Listed
+    * Software Development
+    * Web Development
+* Contact Page
 
-#####Sub-sections
+##### Sub-sections
 To see the two sub-sections of this website, head over to:
 - https://github.com/vitorvicente/grandmen123.com
 - https://github.com/vitorvicente/content.grandmen123.com
