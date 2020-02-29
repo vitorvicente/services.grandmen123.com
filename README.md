@@ -53,7 +53,7 @@ To see the unlisted sub-section of this website, head over to:
 
 
 ### Running & Bug Finding
-If you want to run the website to test for bugs or just mess around, all you have to do is download it and open the HTML files with your prefered browser. To run the PHP code you will likely need to run it on a Linux machine, or install PHP on windows (somehow).
+If you want to run the website to test for bugs or just mess around, all you have to do is download it and open the HTML files with your prefered browser. To run the PHP code you will need to install PHP, to do so head over to https://php.net and download the package for your OS.
 
 Feel free to report bugs at the bug page here on GitHub and I'll address them!
 
