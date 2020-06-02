@@ -1,0 +1,47 @@
+        //<Route exact path={ROUTES.ABOUT} component={About} />
+		//<Route exact path={ROUTES.TOS} component={Tos} />
+		//<Route exact path={ROUTES.VIP} component={Vip} />
+		//<Route exact path={ROUTES.VOUCHES} component={Vouches} />
+		
+		//<Route exact path={ROUTES.SERVICES} component={Services} />
+		
+		//<Route exact path={ROUTES.MC} component={MinecraftServices} />
+		//<Route exact path={ROUTES.MCORDER} component={MinecraftOrder} />
+		//<Route exact path={ROUTES.MCORDER2} component={MinecraftOrderOther} />
+		
+		//<Route exact path={ROUTES.MCOTHER} component={MinecraftOther} />
+		//<Route exact path={ROUTES.MCOTHERDC} component={DonationCraft} />
+		//<Route exact path={ROUTES.MCOTHERE} component={Enjin} />
+		//<Route exact path={ROUTES.MCOTHERLTM} component={LongTerm} />
+		//<Route exact path={ROUTES.MCOTHERNO} component={NetworkOrg} />
+		//<Route exact path={ROUTES.MCOTHERP} component={PanelInst} />
+		//<Route exact path={ROUTES.MCOTHERSM} component={ServerMig} />
+		//<Route exact path={ROUTES.MCOTHERSR} component={ServerRes} />
+		//<Route exact path={ROUTES.MCOTHERT} component={Tebex} />
+		//<Route exact path={ROUTES.MCOTHERX} component={Xenforo} />
+		
+		//<Route exact path={ROUTES.MCPC} component={PluginConfig} />
+		
+		//<Route exact path={ROUTES.MCSS} component={ServerSetups} />
+		//<Route exact path={ROUTES.MCSSB} component={Bungee} />
+		//<Route exact path={ROUTES.MCSSC} component={Creative} />
+		//<Route exact path={ROUTES.MCSSF} component={Factions} />
+		//<Route exact path={ROUTES.MCSSK} component={KitPvP} />
+		//<Route exact path={ROUTES.MCSSL} component={Lobby} />
+		//<Route exact path={ROUTES.MCSSP} component={Prison} />
+		//<Route exact path={ROUTES.MCSSSB} component={Skyblock} />
+		//<Route exact path={ROUTES.MCSSS} component={Survival} />
+		
+		//<Route exact path={ROUTES.NMC} component={NonMC} />
+		//<Route exact path={ROUTES.NMCO} component={NonMCOrder} />
+		//<Route exact path={ROUTES.NMCOO} component={NonMCOrderOther} />
+		
+		//<Route exact path={ROUTES.NMCA} component={AppDevelopment} />
+		//<Route exact path={ROUTES.NMCC} component={Consultation} />
+		//<Route exact path={ROUTES.NMCD} component={Discord} />
+		//<Route exact path={ROUTES.NMCS} component={Software} />
+		//<Route exact path={ROUTES.NMCW} component={Web} />
+		
+		//<Route exact path={ROUTES.CONTACT} component={Contact} />
+		
+        //<Route component={NotFound} />
