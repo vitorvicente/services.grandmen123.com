@@ -128,50 +128,6 @@ h6 {
 	border-color:#00657b!important
 }
 
-
-#footer {
-  background: #00428a;
-  padding: 0 0 30px 0;
-  color: #eee;
-  font-size: 14px;
-}
-
-#footer .footer-top {
-  background: #004a99;
-  padding: 60px 0 30px 0;
-}
-
-#footer .copyright {
-  text-align: center;
-  padding-top: 30px;
-}
-
-#footer .social-icons {
-	color: #ffffff;
-	font-size: 50px;
-}
-
-#footer .social-icons:hover {
-	color: #1d77a3;
-	font-size: 50px;
-}
-
-@media (max-width: 991px) {
-  #header {
-    height: 60px;
-    padding: 10px 0;
-  }
-
-  #header .logo h1 {
-    font-size: 28px;
-    padding: 8px 0;
-  }
-
-  #intro {
-    padding: 140px 0 60px 0;
-  }
-}
-
 .service-boxes .card {
   position: relative;
   overflow: hidden;

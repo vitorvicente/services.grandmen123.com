@@ -1,4 +1,5 @@
 import React from "react";
+import { withStyles } from "@material-ui/styles";
 
 import HomeHeader from "../components/HomeHeader";
 import Footer from "../components/Footer";
@@ -12,9 +13,40 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 
-const MainLanding = () => {
+const styles = {
+  aboutExtra: {
+	paddingTop: "60px",
+	paddingBottom: "60px",
+	"& h4": {
+	  fontWeight: "600",
+      fontSize: "24px",
+	}
+  },
+  imgFluid: {
+	borderRadius: "20px",
+  },
+  btn: {
+	fontSize: "14px",
+	fontWeight: "800",
+	padding: "15px 25px",
+	letterSpacing: "1px",
+	textTransform: "uppercase",
+	borderRadius: "10px",
+	fontFamily: "Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif",
+	backgroundColor: "#0085a1",
+	borderColor: "#0085a1",
+	"&:hover": {
+	  color: "#fff",
+	  backgroundColor: "#00657b!important",
+	  borderColor: "#00657b!important",
+	}
+  },
+
+};
+
+const MainLanding = ({classes}) => {
   return (
-    <div className="landing">
+    <div>
       <HomeHeader />
 
       <Container>
@@ -24,9 +56,9 @@ const MainLanding = () => {
 
       <Container>
 
-        <Row className="about-extra">
+        <Row className={classes.aboutExtra}>
           <Col>
-            <img src={img1} alt="Landing Image 1" width="100%" />
+            <img src={img1} className={classes.imgFluid} alt="Landing Image 1" width="100%" />
           </Col>
           <Col>
 			<h4>Who Am I?</h4>
@@ -37,9 +69,9 @@ const MainLanding = () => {
               In addition to this, my experience in Computer Science that I gained both working and in college as allowed me begin offering services outside the Minecraft Server universe.
             </p>
 			
-			<div className="buttonBlock text-center">
+			<div>
               <Button
-                className="btn btn-info btn-home"
+                className={classes.btn}
                 href="https://github.com/BUUPE/"
               >
                 Learn More
@@ -49,7 +81,7 @@ const MainLanding = () => {
           </Col>
         </Row>
 
-        <Row className="about-extra">
+        <Row className={classes.aboutExtra}>
           <Col>
             <h4>My service shop</h4>
             <p>
@@ -59,9 +91,9 @@ const MainLanding = () => {
               This led me to the creation of XSetups, which allows me to still work and do what I love, and have enough time to dedicate to school and my life.
             </p>
 			
-			<div className="buttonBlock text-center">
+			<div>
               <Button
-                className="btn btn-info btn-home"
+                className={classes.btn}
                 href="https://github.com/BUUPE/"
               >
                 Learn More
@@ -71,7 +103,7 @@ const MainLanding = () => {
           </Col>
 		  
 		  <Col>
-		    <img src={img2} alt="Landing Image 2" width="100%" />
+		    <img src={img2} className={classes.imgFluid} alt="Landing Image 2" width="100%" />
           </Col>
           
         </Row>
@@ -84,4 +116,5 @@ const MainLanding = () => {
   );
 };
 
-export default MainLanding;
+
+export default withStyles(styles)(MainLanding);
