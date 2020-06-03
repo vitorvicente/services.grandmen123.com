@@ -52,7 +52,7 @@ import Landing from "./pages/Landing"
 
 //import Contact from "./pages/Contact"
 //import NotFound from "./pages/NotFound"
-//import Closed from "./pages/Closed"
+import Closed from "./pages/Closed"
 
 
 
@@ -61,7 +61,7 @@ function App() {
 	return (
       <Router className="App">
         <Switch>
-          <Route component={Landing} />
+          <Route component={Closed} />
         </Switch>
       </Router>
 	);
