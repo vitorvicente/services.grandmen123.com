@@ -51,7 +51,7 @@ import Landing from "./pages/Landing"
 //import Web from "./pages/Web"
 
 //import Contact from "./pages/Contact"
-//import NotFound from "./pages/NotFound"
+import NotFound from "./pages/NotFound"
 import Closed from "./pages/Closed"
 
 
@@ -71,6 +71,7 @@ function App() {
     <Router className="App">
       <Switch>
         <Route exact path={ROUTES.LANDING} component={Landing} />
+		<Route component={NotFound} />
       </Switch>
     </Router>
   );

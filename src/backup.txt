@@ -43,5 +43,3 @@
 		//<Route exact path={ROUTES.NMCW} component={Web} />
 		
 		//<Route exact path={ROUTES.CONTACT} component={Contact} />
-		
-        //<Route component={NotFound} />
