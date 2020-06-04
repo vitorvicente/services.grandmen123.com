@@ -48,12 +48,7 @@ const MainLanding = ({classes}) => {
   return (
     <div>
       <HomeHeader />
-
-      <Container>
-        <Row>
-		</Row>
-      </Container>
-
+	  
       <Container>
 
         <Row className={classes.aboutExtra}>

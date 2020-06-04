@@ -7,7 +7,7 @@ import * as ROUTES from "./constants/Routes"
 import Landing from "./pages/Landing"
 
 import About from "./pages/About"
-//import Tos from "./pages/Tos"
+import Tos from "./pages/Tos"
 //import Vip from "./pages/Vip"
 //import Vouches from "./pages/Vouches"
 
@@ -72,6 +72,7 @@ function App() {
       <Switch>
         <Route exact path={ROUTES.LANDING} component={Landing} />
         <Route exact path={ROUTES.ABOUT} component={About} />
+		<Route exact path={ROUTES.TOS} component={Tos} />
 		<Route component={NotFound} />
       </Switch>
     </Router>

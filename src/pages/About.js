@@ -56,11 +56,6 @@ const About = ({classes}) => {
       <AboutHeader />
 
       <Container>
-        <Row>
-		</Row>
-      </Container>
-
-      <Container>
 
         <Row className={classes.aboutExtra}>
           <Col>
@@ -106,7 +101,7 @@ const About = ({classes}) => {
 		    <div>
               <Button
                 className={classes.btn}
-                href="https://github.com/BUUPE/"
+                href="/about/Tos"
               >
                 Terms Of Services
               </Button>
@@ -116,7 +111,7 @@ const About = ({classes}) => {
 		    <div>
               <Button
                 className={classes.btn}
-                href="https://github.com/BUUPE/"
+                href="/about/VIP"
               >
                 VIP Status
               </Button>
@@ -126,7 +121,7 @@ const About = ({classes}) => {
 		    <div>
               <Button
                 className={classes.btn}
-                href="https://github.com/BUUPE/"
+                href="/about/Vouches"
               >
                 Vouches
               </Button>
