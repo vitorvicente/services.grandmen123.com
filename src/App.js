@@ -9,7 +9,7 @@ import Landing from "./pages/Landing"
 import About from "./pages/About"
 import Tos from "./pages/Tos" 
 import Vip from "./pages/Vip"
-//import Vouches from "./pages/Vouches"
+import Vouches from "./pages/Vouches"
 
 //import Services from "./pages/Services"
 
@@ -74,6 +74,7 @@ function App() {
         <Route exact path={ROUTES.ABOUT} component={About} />
 		<Route exact path={ROUTES.TOS} component={Tos} />
 		<Route exact path={ROUTES.VIP} component={Vip} />
+		<Route exact path={ROUTES.VOUCHES} component={Vouches} />
 		<Route component={NotFound} />
       </Switch>
     </Router>
