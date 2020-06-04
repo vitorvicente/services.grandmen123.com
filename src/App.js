@@ -6,7 +6,7 @@ import * as ROUTES from "./constants/Routes"
 
 import Landing from "./pages/Landing"
 
-//import About from "./pages/About"
+import About from "./pages/About"
 //import Tos from "./pages/Tos"
 //import Vip from "./pages/Vip"
 //import Vouches from "./pages/Vouches"
@@ -71,6 +71,7 @@ function App() {
     <Router className="App">
       <Switch>
         <Route exact path={ROUTES.LANDING} component={Landing} />
+        <Route exact path={ROUTES.ABOUT} component={About} />
 		<Route component={NotFound} />
       </Switch>
     </Router>

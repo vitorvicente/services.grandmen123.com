@@ -88,7 +88,7 @@ const styles = {
     backgroundAttachment: "scroll",
     position: "relative",
     backgroundSize: "cover",
-	height: "700px",
+	height: "500px",
     backgroundImage: `url(${img})`,
   },
   mastheadSiteHeading: {
@@ -110,7 +110,7 @@ const styles = {
 
 
 
-const HomeHeader = ({classes}) => (
+const AboutHeader = ({classes}) => (
   <div>
   
     <div>
@@ -122,10 +122,10 @@ const HomeHeader = ({classes}) => (
         <Navbar.Collapse id="navbarResponsive" className="ml-auto">
           <div className="ml-auto">
             <Nav className={classes.mainNavLinks}>
-              <Nav.Link className={classes.mainNavActiveLink} href="/">
+              <Nav.Link className={classes.mainNavLinksLink} href="/">
                 <span>Home</span>
               </Nav.Link>
-			  <Nav.Link className={classes.mainNavLinksLink} href="about">
+			  <Nav.Link className={classes.mainNavActiveLink} href="about">
                 <span>About Me</span>
               </Nav.Link>
 			  <Nav.Link className={classes.mainNavLinksLink} href="services">
@@ -154,4 +154,4 @@ const HomeHeader = ({classes}) => (
   </div>
 );
 
-export default withStyles(styles)(HomeHeader);
+export default withStyles(styles)(AboutHeader);
