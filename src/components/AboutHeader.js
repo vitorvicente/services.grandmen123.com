@@ -7,6 +7,8 @@ import Col from 'react-bootstrap/Col'
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
+import * as ROUTES from "../constants/Routes"
+
 import img from "../assets/header.jpg";
 import "../styles/main.css";
 
@@ -115,23 +117,23 @@ const AboutHeader = ({classes}) => (
   
     <div>
       <Navbar collapseOnSelect className={classes.mainNav} expand="lg">
-        <Navbar.Brand className={classes.mainNavBrand} href="/">
+        <Navbar.Brand className={classes.mainNavBrand} href={ROUTES.LANDING}>
           <span>Grandmen123</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="navbarResponsive" className="ml-auto">
           <div className="ml-auto">
             <Nav className={classes.mainNavLinks}>
-              <Nav.Link className={classes.mainNavLinksLink} href="/">
+              <Nav.Link className={classes.mainNavLinksLink} href={ROUTES.LANDING}>
                 <span>Home</span>
               </Nav.Link>
-			  <Nav.Link className={classes.mainNavActiveLink} href="about">
+			  <Nav.Link className={classes.mainNavActiveLink} href={ROUTES.ABOUT}>
                 <span>About Me</span>
               </Nav.Link>
-			  <Nav.Link className={classes.mainNavLinksLink} href="services">
+			  <Nav.Link className={classes.mainNavLinksLink} href={ROUTES.SERVICES}>
                 <span>Services</span>
               </Nav.Link>
-              <Nav.Link className={classes.mainNavLinksLink} href="contact">
+              <Nav.Link className={classes.mainNavLinksLink} href={ROUTES.CONTACT}>
                 <span>Contact</span>
               </Nav.Link>
             </Nav>
