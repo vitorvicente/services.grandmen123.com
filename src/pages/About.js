@@ -4,6 +4,8 @@ import { withStyles } from "@material-ui/styles";
 import AboutHeader from "../components/AboutHeader";
 import Footer from "../components/Footer";
 
+import * as ROUTES from "../constants/Routes"
+
 import "../styles/main.css";
 import img1 from "../assets/avatar.png";
 
@@ -101,7 +103,7 @@ const About = ({classes}) => {
 		    <div>
               <Button
                 className={classes.btn}
-                href="/about/Tos"
+                href={ROUTES.TOS}
               >
                 Terms Of Services
               </Button>
@@ -111,7 +113,7 @@ const About = ({classes}) => {
 		    <div>
               <Button
                 className={classes.btn}
-                href="/about/VIP"
+                href={ROUTES.VIP}
               >
                 VIP Status
               </Button>
@@ -121,7 +123,7 @@ const About = ({classes}) => {
 		    <div>
               <Button
                 className={classes.btn}
-                href="/about/Vouches"
+                href={ROUTES.VOUCHES}
               >
                 Vouches
               </Button>
