@@ -20,6 +20,14 @@ const styles = {
       fontWeight: "500",
       position: "relative",
 	},
+	"& p": {
+	  textAlign: "center",
+      margin: "auto",
+      fontSize: "15px",
+      paddingBottom: "60px",
+      color: "#556877",
+      width: "50%",
+	},
   },
 
 };
@@ -33,6 +41,7 @@ const Contact = ({classes}) => {
         <Row className={classes.sectionHeader}>
 		  <Col>
 		    <h3>Contact Me</h3>
+			<p>If you have inquiries, questions, or are looking for a business partner fill out the form bellow to contact me</p>
 		  </Col>
 		</Row>
       </Container>

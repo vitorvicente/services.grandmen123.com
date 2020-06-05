@@ -127,13 +127,13 @@ const ContactHeader = ({classes}) => (
               <Nav.Link className={classes.mainNavLinksLink} href={ROUTES.LANDING}>
                 <span>Home</span>
               </Nav.Link>
-			  <Nav.Link className={classes.mainNavActiveLink} href={ROUTES.ABOUT}>
+			  <Nav.Link className={classes.mainNavLinksLink} href={ROUTES.ABOUT}>
                 <span>About Me</span>
               </Nav.Link>
 			  <Nav.Link className={classes.mainNavLinksLink} href={ROUTES.SERVICES}>
                 <span>Services</span>
               </Nav.Link>
-              <Nav.Link className={classes.mainNavLinksLink} href={ROUTES.CONTACT}>
+              <Nav.Link className={classes.mainNavActiveLink} href={ROUTES.CONTACT}>
                 <span>Contact</span>
               </Nav.Link>
             </Nav>
