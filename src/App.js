@@ -50,7 +50,7 @@ import Vouches from "./pages/Vouches"
 //import Software from "./pages/Software"
 //import Web from "./pages/Web"
 
-//import Contact from "./pages/Contact"
+import Contact from "./pages/Contact"
 import NotFound from "./pages/NotFound"
 import Closed from "./pages/Closed"
 
@@ -75,6 +75,7 @@ function App() {
 		<Route exact path={ROUTES.TOS} component={Tos} />
 		<Route exact path={ROUTES.VIP} component={Vip} />
 		<Route exact path={ROUTES.VOUCHES} component={Vouches} />
+		<Route exact path={ROUTES.CONTACT} component={Contact} />
 		<Route component={NotFound} />
       </Switch>
     </Router>
