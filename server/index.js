@@ -22,7 +22,13 @@ app.post('/api/email/contactForm', (req, res) => {
 		to: 'vitor@bu.edu',
 		from: 'no-reply@emails.grandmen123.com',
 		subject: req.body.subject,
-		text: req.body.text
+		templateId: 'd-dc0a7f7913da4f11a25f4af7d5fa9eaa',
+		dynamic_template_data: {
+			subject: req.body.subject,
+			email: req.body.email,
+			name: req.body.name,
+			text: req.body.text,
+		},
 	};
 	
     sgMail.send(msg).then(() => {
