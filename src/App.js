@@ -11,7 +11,7 @@ import Tos from "./pages/Tos"
 import Vip from "./pages/Vip"
 import Vouches from "./pages/Vouches"
 
-//import Services from "./pages/Services"
+import Services from "./pages/Services"
 
 //import MinecraftServices from "./pages/MinecraftServices"
 //import MinecraftOrder from "./pages/MinecraftOrder"
@@ -76,6 +76,7 @@ function App() {
 		<Route exact path={ROUTES.VIP} component={Vip} />
 		<Route exact path={ROUTES.VOUCHES} component={Vouches} />
 		<Route exact path={ROUTES.CONTACT} component={Contact} />
+		<Route exact path={ROUTES.SERVICES} component={Services} />
 		<Route component={NotFound} />
       </Switch>
     </Router>

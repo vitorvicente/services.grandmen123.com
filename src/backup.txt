@@ -36,5 +36,3 @@
 		//<Route exact path={ROUTES.NMCD} component={Discord} />
 		//<Route exact path={ROUTES.NMCS} component={Software} />
 		//<Route exact path={ROUTES.NMCW} component={Web} />
-		
-		//<Route exact path={ROUTES.CONTACT} component={Contact} />
